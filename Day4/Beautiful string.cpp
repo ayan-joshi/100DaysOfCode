@@ -27,3 +27,6 @@ int makeBeautiful(string str) {
 
 // 1010 , 010, 0101 this kind ofstrings are named as beautiful string
 // we neeed to return number of changes required to make the string beautiful
+// firstly we iterate in the array and gave even and odd position to 0 and 1 and vice vera with else 
+//then took two cnt variable and iterated in the array and if it's not the beautiful string we have increase the count 
+// at the end return the mini of cnt needed for the beautiful string 
