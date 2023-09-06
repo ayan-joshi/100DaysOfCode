@@ -28,3 +28,4 @@ int minimumParentheses(string pattern) {
 // if it's not empty , check if the top element of the stack (which stores the index of the corresponding open parenthesis) 
 // is less than the current index. If it is, pop the top element from the stack, indicating that a matching pair of parentheses has been found
 // at the end add st.size and count to the count variable and return the count variable 
+// completed 
